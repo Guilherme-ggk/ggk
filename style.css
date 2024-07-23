@@ -33,6 +33,7 @@ nav{
     width: 70px;
     transition: 0.3s;
     font-weight: bold;
+    margin-left: 100px;
 }
 .login:hover{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
