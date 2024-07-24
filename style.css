@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -73,14 +75,19 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+
 footer{
-    height: 80px;
+    font-family: 'Inter';
+    width: 100%;
     background-color:rgb(15, 16, 16);
     color: white;
     text-align: center;
+    letter-spacing: 2px;
 
 }
 footer > p{
     padding: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
