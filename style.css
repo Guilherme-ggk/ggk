@@ -147,4 +147,21 @@ footer > p{
     background-color: #2a2a2a;
 }
 
+.footer-link{
+    color: #2a2a2a;
+    text-decoration: none;
+    list-style: none;
+}
+.footer-list
+{
+    display: grid;
+    grid-template-columns: 4,1fr;
+}
+.footer-list li
+{
+    color: #2a2a2a;
+    
+    margin: 10px;
+    gap: 1rem;
+}
 
