@@ -227,16 +227,12 @@ footer > p{
         grid-template-columns: repeat(2,1fr);
         gap:2rem;
     }
-    header
-    {
-        
-    }
 }
 @media screen and (max-width: 426px) {
     .footer-content
     {
         grid-template-columns: repeat(1,1fr);
-        padding: 2rem 2rem;
+        gap:3rem;
     }
 }
 
