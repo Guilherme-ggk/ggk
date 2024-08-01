@@ -20,6 +20,10 @@
 }
 .nav-itens > li{
     padding: 20px;
+
+}
+.nav-itens > li:hover{
+    text-decoration: underline;
 }
 nav{
     display: flex;
@@ -27,9 +31,7 @@ nav{
     font-family: "Poppins", sans-serif;
     align-items: center;
 }
-nav .links{
-    text
-}
+
 .logo{
     background-image: url(images/Design\ sem\ nome.png);
     background-size: cover;
