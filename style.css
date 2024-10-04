@@ -54,7 +54,7 @@ nav{
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.336);
     transition: 0.3s;
     transform: translateY(-5px);
-    background-color: deepskyblue;
+    background-color: rgb(189, 189, 189);
 }
 .cadastro{
     padding: 10px;
