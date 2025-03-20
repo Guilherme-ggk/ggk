@@ -236,7 +236,56 @@ footer > p{
 } 
 
 
+ /* Estilização do card */
+ .card {
+    background: #fff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    margin-top: 50px;
+}
 
+/* Estilização da imagem */
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Conteúdo do card */
+.card-content {
+    padding: 15px;
+}
+
+/* Título do card */
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Texto do card */
+.card-text {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Botão */
+.card-btn {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.card-btn:hover {
+    background: #0056b3;
+}
 
 
 @media screen and (max-width: 768px) {
