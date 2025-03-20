@@ -235,7 +235,6 @@ footer > p{
     padding: 10px;
 } 
 
-
  /* Estilização do card */
  .card {
     background: #fff;
@@ -244,7 +243,6 @@ footer > p{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
-    margin-top: 50px;
 }
 
 /* Estilização da imagem */
@@ -260,14 +258,14 @@ footer > p{
 
 /* Título do card */
 .card-title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 /* Texto do card */
 .card-text {
-    font-size: 18px;
+    font-size: 14px;
     color: #555;
 }
 
@@ -286,7 +284,6 @@ footer > p{
 .card-btn:hover {
     background: #0056b3;
 }
-
 
 @media screen and (max-width: 768px) {
     .footer-content
