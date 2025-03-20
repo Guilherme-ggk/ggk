@@ -236,9 +236,10 @@ footer > p{
 } 
 
  /* Estilização do card */
- .card {
+.card {
     background: #fff;
-    width: 300px;
+    width: 250px;
+    margin-top: 75px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -247,6 +248,7 @@ footer > p{
 
 /* Estilização da imagem */
 .card img {
+    background-image: url(images/1560863532_csharp.png);
     width: 100%;
     height: auto;
 }
