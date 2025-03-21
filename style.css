@@ -276,7 +276,7 @@ footer > p{
 /* Botão */
 .card-btn {
     display: inline-block;
-    background: #007BFF;
+    background: #242729;
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -286,8 +286,9 @@ footer > p{
 }
 
 .card-btn:hover {
-    background: deepskyblue;
+    background: rgb(80, 80, 80);
     margin-top: 1px;
+    
     
 }
 
