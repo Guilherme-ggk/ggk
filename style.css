@@ -271,6 +271,7 @@ footer > p{
 .card-text {
     font-size: 14px;
     color: #555;
+    padding-bottom: 10px;
 }
 
 /* Botão */
