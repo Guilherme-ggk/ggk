@@ -33,13 +33,7 @@ nav{
     align-items: center;
 }
 
-.logo{
-    background-image: url(images/Design\ sem\ nome.png);
-    background-size: cover;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-}
+
 .login{
     background-color: rgb(0, 0, 0);
     color: white;
@@ -106,6 +100,9 @@ footer{
     grid-template-columns: repeat(4,1fr);
     padding: 20px;
 
+}
+.footer-content > .footer-contacts > h1{
+    width: 100px;
 }
 footer > p{
     padding: 30px;
@@ -237,16 +234,25 @@ footer > p{
 } 
 
  /* Estilização do card */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1px, 250px));
+    gap: 70px;
+}
+
 .card {
     background: #fff;
     width: 250px;
     height: 400px;
     margin-top: 75px;
+    margin-right: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: center;
 }
+
 
 /* Estilização da imagem */
 .card img {
