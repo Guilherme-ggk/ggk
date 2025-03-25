@@ -101,8 +101,9 @@ footer{
     padding: 20px;
 
 }
-.footer-content > .footer-contacts > h1{
+footer > .footer-content > .footer-contacts > h1 > img{
     width: 100px;
+    border-radius: 50%;
 }
 footer > p{
     padding: 30px;
