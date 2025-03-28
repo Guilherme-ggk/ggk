@@ -183,6 +183,7 @@ footer > p{
 }
 .footer-subscribe
 {
+    
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
