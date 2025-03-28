@@ -74,7 +74,7 @@ header{
 main{
     
     width: 65%;
-    height: 700px;
+    height: 1000px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0);
 }
@@ -85,7 +85,194 @@ body{
     background-repeat: no-repeat;
 }
 
-footer{
+footer {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    color: var(--cor-30);
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer-content {
+    background-color: var(--cor-10);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.footer-contacts h1 img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.footer-contacts h1 {
+    margin-bottom: 1rem;
+}
+
+#footer-social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+#footer-social-media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+    color: #f5f5f5;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#footer-social-media .footer-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+#footer-social-media .footer-link i {
+    font-size: 1.25rem;
+}
+
+/* Cores específicas para redes sociais */
+#instagram {
+    background: linear-gradient(rgb(187, 1, 187), rgb(212, 96, 115), rgb(224, 166, 59));
+}
+
+#facebook {
+    background-color: #4267b3;
+}
+
+#github {
+    background-color: #2a2a2a;
+}
+
+/* Estilos do formulário */
+.footer-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-subscribe p {
+    color: #818080;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-neutra);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.input-group input {
+    all: unset;
+    background-color: #000000;
+    color: white;
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input-group button {
+    background-color: dodgerblue;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-group button:hover {
+    background-color: deepskyblue;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    transform: translateY(-5px);
+}
+
+/* Direitos autorais */
+#footer-copyright {
+    background-color: #171717;
+    color: #f5f5f5;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.about-me {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-image: url(images/foto.jpg);
+}
+
+.about-info {
+    max-width: 500px;
+}
+
+.about-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.btn-contact {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: deepskyblue;
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.5);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .about-me {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+/* footer{
     font-family: 'Inter';
     width: 100%;
     color: var(--cor-30);
@@ -233,7 +420,7 @@ footer > p{
     font-size: 0.8rem;
     font-weight: 100;
     padding: 10px;
-} 
+}  */
 
  /* Estilização do card */
 
