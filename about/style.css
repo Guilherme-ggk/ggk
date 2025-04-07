@@ -8,10 +8,11 @@ body
 }
 nav
 {
+    margin-top: 20px;
     justify-content: space-around;
     font-family: "Poppins", sans-serif;
     align-items: flex-end;
-    padding-right: 20px;
+    padding-right: 70px;
 }
 .nav-itens ul{
     justify-content: end;
@@ -23,57 +24,93 @@ nav
 }
 .nav-itens a{
     text-decoration: none;
-    color: rgb(156, 156, 156);
+    color: rgba(255, 255, 255, 0.658);
+    font-family: 'Fira Code', monospace;
 }
-main
+.nav-itens a:hover
 {
-
+    transition: 0.4s;
+    text-decoration: underline;
+    color: white;
 }
 nav button
 {
     padding: 7px;
     border-style:  solid;
     border-radius: 5px;
-    border-color: cadetblue;
+    border-color: rgb(95, 121, 160);
     background-color: rgb(16,28,52);
-    color: cadetblue;
+    color: rgb(100, 136, 190);
+    transition: 0.3s;
+}
+.nav-itens button:hover
+{
+    transition: 0.3s;
+    border-radius: 10px;
+    transform: translateY(-10px);
 }
 .main-apresentação
 {
     display: block;
     margin-right: 500px;
     border-radius: 10px;
-    padding: 100px;
-    width: 400px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 300px;
 }
 .main-apresentação button
 {
     padding: 15px;
     border-style:  solid;
     border-radius: 5px;
-    border-color: cadetblue;
     background-color: rgb(16,28,52);
-    color: cadetblue;
+    margin-top: 15px;
+    width: 350px;
+    transition: 0.3s;
+    font-weight: 700;
+    border-color: rgb(95, 121, 160);
+    color: rgb(100, 136, 190);
+}
+.main-apresentação button:hover
+{
+    border-radius: 12px;
+    transform: translateY(-10px);
+    color: rgb(123, 180, 238);
 }
 .main-apresentação p{
-    color: cadetblue;
+    font-weight: b;
+    color: rgb(123, 180, 238);
     font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
 }
-.main-apresentação .sub-para{
-    color:  rgba(189, 189, 189, 0.651);
+.main-apresentação > .sub-para{
+    color: rgba(189, 189, 189, 0.651);
     margin: 10px;
+    line-height: 1.8; /* espaçamento entre linhas */
+    letter-spacing: 0.3px; /* leve espaçamento entre letras */
+    max-width: 600px; /* limite da largura do parágrafo */
+    font-size: 1rem; /* tamanho da fonte */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
 }
 .main-apresentação .sub-title
 {
-    color: rgba(189, 189, 189, 0.651);
+    color: rgba(255, 255, 255, 0.418);
 }
-.main-apresentação h1
+.main-apresentação  h1
 {
-color: aliceblue;
+    white-space: nowrap;
+    color: aliceblue;
+    font-family: 'Inter';
+    font-size: 4em;
 }
 .main-apresentação a
 {
-    color: aquamarine;
+    color: rgb(110, 215, 250);
     text-decoration: none;
     font-weight: bold;
+}
+.main-apresentação a:hover
+{
+    text-decoration: underline;
 }
