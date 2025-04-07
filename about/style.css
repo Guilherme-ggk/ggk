@@ -79,7 +79,6 @@ nav button
     color: rgb(123, 180, 238);
 }
 .main-apresentação .main-p{
-
     /* color: rgb(123, 180, 238);
     overflow: hidden;
     font-family: 'Courier New', Courier, monospace;
@@ -94,9 +93,7 @@ nav button
     overflow: hidden;
     animation: typing 2s steps(20) infinite alternate-reverse ;
 }
-
 @keyframes typing {
-
     from
     {
         width: 0ch;
