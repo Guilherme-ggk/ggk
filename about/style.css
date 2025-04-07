@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(16,28,52);
+}
+nav
+{
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    align-items: flex-end;
+    padding-right: 20px;
+}
+.nav-itens ul{
+    justify-content: end;
+    list-style: none;
+    display: flex;
+    margin-top: 8px;
+    gap: 20px;
+    text-decoration: none;
+}
+.nav-itens a{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+main
+{
+
+}
+nav button
+{
+    padding: 7px;
+    border-style:  solid;
+    border-radius: 5px;
+    border-color: cadetblue;
+    background-color: rgb(16,28,52);
+    color: cadetblue;
+}
+.main-apresentação
+{
+    display: block;
+    margin-right: 500px;
+    border-radius: 10px;
+    padding: 100px;
+    width: 400px;
+}
+.main-apresentação button
+{
+    padding: 15px;
+    border-style:  solid;
+    border-radius: 5px;
+    border-color: cadetblue;
+    background-color: rgb(16,28,52);
+    color: cadetblue;
+}
+.main-apresentação p{
+    color: cadetblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main-apresentação .sub-para{
+    color:  rgba(189, 189, 189, 0.651);
+    margin: 10px;
+}
+.main-apresentação .sub-title
+{
+    color: rgba(189, 189, 189, 0.651);
+}
+.main-apresentação h1
+{
+color: aliceblue;
+}
+.main-apresentação a
+{
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: bold;
+}
