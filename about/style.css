@@ -48,6 +48,7 @@ nav button
     transition: 0.3s;
     border-radius: 10px;
     transform: translateY(-10px);
+    color: rgb(123, 180, 238);
 }
 .main-apresentação
 {
@@ -77,11 +78,29 @@ nav button
     transform: translateY(-10px);
     color: rgb(123, 180, 238);
 }
-.main-apresentação p{
-    font-weight: b;
-    color: rgb(123, 180, 238);
+.main-apresentação .main-p{
+
+    /* color: rgb(123, 180, 238);
+    overflow: hidden;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
+    text-wrap: nowrap;
+    animation: typing 2s steps(20) infinite alternate-reverse; */
+    color: rgb(123, 180, 238);
+    width: 20ch;
+    font-family: monospace;
+    font-size: 40px;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(20) infinite alternate-reverse ;
+}
+
+@keyframes typing {
+
+    from
+    {
+        width: 0ch;
+    }
 }
 .main-apresentação > .sub-para{
     color: rgba(189, 189, 189, 0.651);
