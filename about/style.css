@@ -130,3 +130,34 @@ nav button
 {
     text-decoration: underline;
 }
+
+.btn-info
+{
+    display: block;
+    padding: 7px;
+    border-style:  solid;
+    border-radius: 5px;
+    border-color: rgb(95, 121, 160);
+    background-color: rgb(16,28,52);
+    color: rgb(100, 136, 190);
+    transition: 0.3s;
+    margin-top: 15px;
+    text-align: center;
+    transition: 0.3s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left:309px;
+    width: 445px;
+    margin-top: 25px;
+    text-decoration: none;
+
+}
+.btn-info:hover{
+    transition: 0.3s;
+    border-radius: 10px;
+    transform: translateY(-10px);
+    color: rgb(123, 180, 238);
+}
+.btn-info  a{
+    color: rgb(100, 136, 190);
+    text-decoration: none;
+}
