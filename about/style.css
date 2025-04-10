@@ -161,3 +161,17 @@ nav button
     color: rgb(100, 136, 190);
     text-decoration: none;
 }
+
+.section-skils
+{
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.089);
+    width: 800px;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: 50px auto; /* margin-top de 50px e horizontal automática */
+}
