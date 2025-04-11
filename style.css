@@ -15,9 +15,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .nav-itens{
-    justify-content: center;
-    list-style: none;
     display: flex;
+    justify-content: flex-end;
+    list-style: none;
     margin-top: 8px;
 }
 .nav-itens > li{
@@ -29,15 +29,12 @@
 }
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    margin-right: 50px;
     font-family: "Poppins", sans-serif;
-    align-items: center;
+    align-items: end;
 }
 
-nav
-{
-    justify-content: center;
-}
 
 .login{
     background-color: rgb(0, 0, 0);
