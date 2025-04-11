@@ -481,6 +481,7 @@ footer > p{
  /* Estilização do card */
 
 .container {
+    margin-bottom: 100px;
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(1px, 250px));
