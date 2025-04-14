@@ -121,3 +121,10 @@ nav #a-color:hover
     transform: translateY(-5px);
 }
 
+#section-features
+{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+
