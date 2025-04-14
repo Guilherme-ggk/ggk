@@ -68,28 +68,37 @@ nav #a-color:hover
 #section-apresentation
 {
     background-image: url(images/section/backgroud.jpg);
-    background-position: center;
+    background-position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    text-align: center;
-    display:grid;
-    margin: auto;
-    align-items: center;
-    position: relative;
-    justify-content: center;
+}
 
+.section-div
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    padding-top: 250px;
 }
 #section-apresentation p
 {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    width: 700px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
 }
 
 #section-apresentation h1{
+    margin-bottom: 10px;
     color: white;
-    font-size: 40px;
+    font-size: 46px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
