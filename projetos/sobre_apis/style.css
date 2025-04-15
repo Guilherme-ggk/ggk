@@ -230,8 +230,9 @@ nav #a-color:hover
 }
 #section-conceptions h3{
     background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
     width: 200px;
-    margin: 10px;
     color: dodgerblue;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
