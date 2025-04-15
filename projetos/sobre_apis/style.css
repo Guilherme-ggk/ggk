@@ -124,7 +124,7 @@ nav #a-color:hover
 #section-features
 {
     background-color: white;
-    height: 500px;
+    height: 400px;
     width: 100%;
     display: flex;
     margin: auto;
@@ -137,7 +137,7 @@ nav #a-color:hover
 {
     margin: 100px;
     text-align: center;
-    width: 200px;
+    width: 300px;
     height: 210px;
     padding: 10px;
     border-radius: 10px;
@@ -158,13 +158,22 @@ nav #a-color:hover
 
 .card-feature img{
     background-size: cover;
-    padding: 30px;
+    height: 50px;
+    
+}
+.card-feature p{
+    width: 300px;
+    margin: auto;
+    text-align: center;
 }
 
 .img-border
 {
     background-color: black;
+    padding: 20px;
+    width: 100px;
     border-radius: 50%;
+    margin: auto;
 }
 
 
@@ -186,12 +195,110 @@ nav #a-color:hover
     transform: translateY(-6px);
 }
 
+
+
+
+
+
 #section-conceptions
 {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: dodgerblue;
+    text-align: center;
+
 }
+
+#section-conceptions h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding: 30px;
+}
+
+.global-conceptions
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.conception-feature
+{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.footer-div a{
+    text-decoration: none;
+    color: white;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    padding-bottom:10px;
+    transition: 0.2s;
+}
+
+.footer-div a:hover
+{
+    text-decoration: underline;
+    color: dodgerblue;
+
+}
+
+.footer-div #sociais
+{
+    display: flex;
+}
+
+.social-icon
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+#footer-end
+{
+    padding: 10px;
+    height: auto;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(29, 29, 29);
+}
+
+
 
 
 
