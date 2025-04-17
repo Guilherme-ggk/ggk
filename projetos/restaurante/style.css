@@ -182,3 +182,11 @@ nav a:hover
     background-color: antiquewhite;
     height: 400px;
 }
+
+/* SECTION3 */
+
+.section3{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(25, 40, 41);
+}
