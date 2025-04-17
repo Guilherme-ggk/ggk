@@ -189,4 +189,40 @@ nav a:hover
     height: 600px;
     width: 100%;
     background-color: rgb(25, 40, 41);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
+
+
+.section3-img
+{
+    background-image: url(images/section-image1.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    margin-right: 100px;
+}
+
+.section3-box
+{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 400px;
+}
+
+
+
+/* FOOTER */
+
+footer
+{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
