@@ -147,7 +147,8 @@ nav a:hover
 {
     background-color: black;
     color: white;
-    height: 500px;
+    height: 700px;
+    padding-top: 100px;
 }
 
 .section2-box
@@ -175,12 +176,62 @@ nav a:hover
 .section2-txt
 {
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section2-txt p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+.section2-txt h1
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 25px;
 }
 
 .box-txt{
     width: 400px;
-    background-color: antiquewhite;
     height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.box-txt h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.box-txt p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+.box-txt .p
+{
+    color: rgb(163, 163, 163);
+    width: 300px;
+    padding-top: 40px;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box-txt button{
+    margin-top: 50px;
+    background-color: orange;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    font-weight: 600;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+    transition: 0.3s;
+}
+
+.box-txt button:hover
+{
+    transform: translateY(-5px);
 }
 
 /* SECTION3 */
