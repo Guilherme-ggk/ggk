@@ -139,3 +139,46 @@ nav a:hover
 {
     transform: translateY(-5px);
 }
+
+/* SECTION2 */
+
+
+.section2
+{
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+
+.section2-box
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-box2
+{
+    background-image: url(images/section-image1.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.img-box3
+{
+    background-image: url(images/section-image1.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+
+.section2-txt
+{
+    text-align: center;
+}
+
+.box-txt{
+    width: 400px;
+    background-color: antiquewhite;
+    height: 400px;
+}
