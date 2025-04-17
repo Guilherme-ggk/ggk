@@ -37,10 +37,11 @@ nav
 
 nav a
 {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-decoration: none;
     margin: 15px;
+    font-weight: 100;
     transition: 0.2s;
 }
 nav a:hover
@@ -64,15 +65,17 @@ nav a:hover
     height: 40px;
     margin-top: 5px;
     font-weight: 600;
-    width: 100px;
+    width: 150px;
     border-radius: 10px;
     border: none;
     transition: 0.3s;
-    margin-left: 30px;
+    margin-right: 60px;
 }
 .nav-btn:hover
 {
     transform: translateY(-5px);
+    background-color: white;
+    color: orange;
 }
 
 
@@ -109,7 +112,6 @@ nav a:hover
     padding-top: 200px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .section1 h1{
     font-size: 50px;
 }
@@ -260,6 +262,35 @@ nav a:hover
     background-color: antiquewhite;
     height: 500px;
     width: 400px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section3-box h1{
+    font-size: 34px;
+}
+
+.section3-box p 
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section3-box button
+{
+    margin-top: 50px;
+    background-color: orange;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    font-weight: 600;
+    width: 100px;
+    border-radius: 2px;
+    border: none;
+    transition: 0.3s;
+}
+
+.section3-box button:hover
+{
+    transform: translateY(-8px);
 }
 
 
