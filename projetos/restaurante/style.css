@@ -342,8 +342,57 @@ list-style: none;
     padding: 10px;
 }
 
+.footer-redes{
+    color: white;
+}
 
+.fi-brands-whatsapp
+{
+    height: 100px;
+    width: 100px;
+}
+.i
+{
+    
+    padding-top: 20px;
+}
+.i-ul
 
+{
+    list-style: none;
+}
+i
+{
+    margin-top: 100px;
+    padding-top: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.social
+{
+    padding: 20px;
+    transition: 0.2s;
+}
+.social:hover
+{
+
+    transform: translateY(-10px);
+}
+.img-social
+{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.ul-social
+{
+    list-style: none;
+    display: flex;
+}
 footer
 {
     padding: 20px;
