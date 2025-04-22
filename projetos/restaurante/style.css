@@ -319,6 +319,31 @@ nav a:hover
 
 /* FOOTER */
 
+
+.footer-redes
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f-redes ul 
+{
+list-style: none;
+}
+
+.f-redes a
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
 footer
 {
     padding: 20px;
