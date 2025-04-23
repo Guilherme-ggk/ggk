@@ -349,6 +349,11 @@ nav a:hover
     transition: 0.1s;
 }
 
+.f-redes h2
+{
+    display: flex;
+}
+
 .f-redes a:hover
 {
     color: rgb(245, 233, 201);
