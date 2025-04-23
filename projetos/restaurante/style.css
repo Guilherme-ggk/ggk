@@ -326,10 +326,16 @@ nav a:hover
     justify-content: space-evenly;
 }
 
+.t-redes
+{
+    padding-top: 50px;
+}
+
 .f-redes ul 
 {
-list-style: none;
+    list-style: none;
 }
+
 
 .f-redes a
 {
@@ -340,6 +346,14 @@ list-style: none;
     font-weight: 500;
     font-size: 20px;
     padding: 10px;
+    transition: 0.1s;
+}
+
+.f-redes a:hover
+{
+    color: rgb(245, 233, 201);
+    text-decoration: underline;
+
 }
 
 .footer-redes{
@@ -392,6 +406,7 @@ i
 {
     list-style: none;
     display: flex;
+    padding-left: 50px;
 }
 footer
 {
