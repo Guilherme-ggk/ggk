@@ -106,12 +106,86 @@ header
     display: flex;
 }
 
+
+.div1-box
+{
+    width: 50%;
+    background-color: rgb(56, 56, 56);
+}
+
 .div1-section1
 {
-    text-align: center;
-    background-color: aquamarine;
     width: 50%;
+    margin: auto;
+    margin-top: 100px;
 }
+
+.div1-section1 h1
+{
+    color: white;
+    width: 400px;
+    font-size: 33px;
+}
+
+
+.div1-section1 .h1-color
+{
+    color: rgb(155, 133, 107);
+}
+
+.div1-section1 .linha1
+{
+    height: 1.4px;
+    background-color: rgb(202, 176, 127);
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.div1-section1 button
+{
+    all: unset;
+    border: solid 2px;
+    border-color: bisque;
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 50px;
+    transition: 0.3s;
+    color: white;
+}
+
+.div1-section1 button:hover
+{
+    transform: translateY(-10px);
+}
+
+.div1-section1 p
+{
+    font-size: 15px;
+    color: rgb(155, 155, 155);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div2-box
+{
+    width: 50%;
+    background-color: rgb(39, 39, 39);
+}
+
 
 .div2-section1
 {
