@@ -10,7 +10,6 @@
 
 nav
 {
-    background-color: antiquewhite;
     padding: 20px;
 }
 
@@ -25,11 +24,17 @@ nav a
 {
     text-decoration: none;
     margin: 10px;
+    color: white;
+}
+nav a:hover
+{
+    text-decoration: underline;
 }
 
 .nav-title
 {
     padding-left: 265px;
+    color: white;
 }
 
 
@@ -37,21 +42,59 @@ nav a
 
 header
 {
-    background-color: rgb(171, 221, 221);
+    background-image: url(images/header/pexels-thgusstavo-1813272.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
 }
 
 .header-title
 {
     text-align: center;
     color: white;
-    width: 300px;
+    width: 500px;
     margin: auto;
 }
 
+.header-title h1{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+
 .p-color
 {
-    text-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+}
+
+.p-color div
+{
+    margin: 5px;
+}
+
+.p-colorB
+{
     color: bisque;
+}
+
+.header-title button
+{
+    all: unset;
+    border: solid 2px;
+    border-color: bisque;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 40px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.header-title button:hover
+{
+    transform: translateY(-10px);
 }
 
 
