@@ -99,3 +99,52 @@ header
 
 
 
+.section1
+{
+    background-color: antiquewhite;
+    height: 700px;
+    display: flex;
+}
+
+.div1-section1
+{
+    text-align: center;
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.div2-section1
+{
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div2-section1 button
+{
+    all: unset;
+    border: solid 2px;
+    border-color: bisque;
+    padding: 15px;
+    color: white;
+    border-radius: 3px;
+    margin: 40px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.div2-section1 button:hover
+{
+    transform: translateY(-10px);
+}
