@@ -165,7 +165,7 @@ nav a:hover
 
 .section2
 {
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     color: white;
     height: 800px;
     padding-top: 100px;
@@ -263,7 +263,7 @@ nav a:hover
 .section3{
     height: 600px;
     width: 100%;
-    background-color: rgb(25, 40, 41);
+    background-color: rgb(21, 25, 26);
     display: flex;
     justify-content: center;
     padding-top: 50px;
@@ -272,32 +272,81 @@ nav a:hover
 
 .section3-img
 {
-    background-image: url(images/section-image1.jpg);
+    background-image: url(images/pexels-koray-yilmazdemir-2151511977-31729340.jpg);
     width: 400px;
     height: 500px;
     background-size: cover;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
 .section3-box
 {
-    background-color: antiquewhite;
+
     height: 500px;
     width: 400px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.menu-bloco
+{
+    display: flex;
+    width: 400px;
+    padding-left: 20px;
+    padding: 18px;
+}
+
+.iten-box
+{
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    padding-left: 25px;
+}
+
+.menu-item
+{
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-nome
+{
+    padding-right: 10px;
+}
+
+.linha
+{
+    height: 0.2px;
+    width: 150px;
+    background-color: rgb(158, 136, 103);
+    margin: auto;
+}
+
+.preco
+{
+    color: orange;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+
+
 .section3-box h1{
     font-size: 34px;
 }
 
 .section3-box p 
 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 7px;
 }
 
 .section3-box button
 {
+    display: block;
     margin-top: 50px;
     background-color: orange;
     color: white;
@@ -308,6 +357,7 @@ nav a:hover
     border-radius: 2px;
     border: none;
     transition: 0.3s;
+    margin-top: 20px;
 }
 
 .section3-box button:hover
@@ -317,7 +367,6 @@ nav a:hover
 
 
 
-aaaaa
 
 .section3-box li
 {
