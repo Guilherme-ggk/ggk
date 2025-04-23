@@ -317,6 +317,19 @@ nav a:hover
 
 
 
+
+
+.section3-box li
+{
+    display: flex;
+}
+
+.section3-box hr{
+    width: 20px;
+}
+
+
+
 /* FOOTER */
 
 
