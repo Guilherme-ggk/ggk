@@ -234,3 +234,54 @@ header
 {
     transform: translateY(-10px);
 }
+
+
+
+
+.section2
+{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    background-color: rgb(42, 43, 43);
+}
+
+
+
+
+.img2-1
+
+{
+    margin-top: 45px;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/section2/pexels-nickoloui-1319461.jpg);
+}
+
+.img2-2
+{
+    margin-top: 45px;
+    height: 300px;
+    margin-left: 30px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/section2/pexels-thgusstavo-2014809.jpg);
+}
+
+.title2
+{
+    color: white;
+    margin-top: 150px;
+    margin-left: 70px;
+}
+
+.linha2
+{
+    margin-top: 10px;
+    background-color: rgb(209, 197, 129);
+    height: 2px;
+    width: 200px;
+}
