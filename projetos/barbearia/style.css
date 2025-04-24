@@ -418,3 +418,109 @@ header
     width: 325px;
     margin-top: 5px;
 }
+
+.footer-redes
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t-redes
+{
+    padding-top: 50px;
+}
+
+.f-redes ul 
+{
+    list-style: none;
+}
+
+
+.f-redes a
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    transition: 0.1s;
+}
+
+.f-redes h2
+{
+    display: flex;
+}
+
+.f-redes a:hover
+{
+    color: rgb(245, 233, 201);
+    text-decoration: underline;
+
+}
+
+.footer-redes{
+    color: white;
+}
+
+.fi-brands-whatsapp
+{
+    height: 100px;
+    width: 100px;
+}
+.i
+{
+    
+    padding-top: 20px;
+}
+.i-ul
+
+{
+    list-style: none;
+}
+i
+{
+    margin-top: 100px;
+    padding-top: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+.social
+{
+    padding: 20px;
+    transition: 0.2s;
+}
+.social:hover
+{
+
+    transform: translateY(-10px);
+}
+.img-social
+{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    border-radius: 50%;
+    padding: 8px;
+}
+.ul-social
+{
+    list-style: none;
+    display: flex;
+    padding-left: 50px;
+}
+footer
+{
+    padding: 20px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+
+
