@@ -150,23 +150,4 @@ nav button:hover
 }
 
 
-.section2
-{
-    display: flex;
 
-}
-
-.section2-img
-{
-    background-color: aliceblue;
-    height: auto;
-}
-
-.section2-content
-{
-    display: block;
-    background-color: aliceblue;
-    width: 400px;
-    margin-left: px;
-    padding-top: 240px;
-}
