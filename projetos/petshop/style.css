@@ -14,7 +14,6 @@ nav
     justify-content: space-between;
     height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: antiquewhite;
 }
 
 nav ul
@@ -70,26 +69,27 @@ nav button:hover
 
 .section1
 {
-    background-image: url();
+    background-image: url(images/section1/pexels-catscoming-1359307.jpg);
+    background-position: center;
+    background-size: cover;
     height: 600px;
     width: 100%;
 }
 
 .section1-content
 {
-    background-color: rgb(112, 103, 92);
     padding-top: 100px;
     width: 500px;
     margin-left: 400px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .section1-content h2
 {
     background-color: white;
     color: orange;
-    width: 400px;
+    width: 315px;
+    text-align: center;
     border-radius: 3px;
 }
 
@@ -110,6 +110,9 @@ nav button:hover
     margin-top: 30px;
     background-color: orange;
     transition: 0.3s;
+    width: 165px;
+    font-weight: 700;
+    text-align: center;
 }
 
 .section1-content button:hover
