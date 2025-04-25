@@ -7,12 +7,14 @@
 
 /* HEADER */
 
+
 nav
 {
     display: flex;
     justify-content: space-between;
     height: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
 }
 
 nav ul
@@ -68,18 +70,52 @@ nav button:hover
 
 .section1
 {
-    background-color: aqua;
+    background-image: url();
     height: 600px;
     width: 100%;
 }
 
-.section1-box
+.section1-content
 {
-    width: 50%;
-    margin: auto;
-    margin-top: 100px;
-    background-color: antiquewhite;
+    background-color: rgb(112, 103, 92);
+    padding-top: 100px;
+    width: 500px;
+    margin-left: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
 
+.section1-content h2
+{
+    background-color: white;
+    color: orange;
+    width: 400px;
+    border-radius: 3px;
+}
+
+.section1-content h1
+{
+    color: white;
+    font-size: 70px;
+    margin-top: 30px;
+    text-wrap: nowrap;
+}
+
+.section1-content button
+{
+    all: unset;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-top: 30px;
+    background-color: orange;
+    transition: 0.3s;
+}
+
+.section1-content button:hover
+{
+    transform: translateY(-10px);
+    background-color: white;
+    color: orange;
 }
 
