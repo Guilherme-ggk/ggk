@@ -231,4 +231,76 @@ nav button:hover
 .box-s3
 {
     background-color: antiquewhite;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.box-s3 button
+{
+    all: unset;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.box-s3 h1
+{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-s3 p
+{
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 35px;
+}
+
+.cards-s3
+{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.card3
+{
+    margin: 30px;
+}
+
+
+.img33{
+    background-image: url(images/section2/rosto-dog.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img32{
+    background-image: url(images/section2/rosto-dog.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img31{
+    background-image: url(images/section2/rosto-dog.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card3 h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(63, 39, 31);
+    color: white;
+}
+
