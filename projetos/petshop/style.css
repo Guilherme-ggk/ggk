@@ -220,3 +220,15 @@ nav button:hover
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+.section3
+{
+    height: 700px;
+    text-align: center;
+}
+
+.box-s3
+{
+    background-color: antiquewhite;
+}
