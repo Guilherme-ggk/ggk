@@ -178,9 +178,40 @@ nav button:hover
 
 .content2
 {
-    background-color: blue;
-    width: 100px;
-    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+
+.content2 button
+{
+    all: unset;
+    background-color: white;
+    color: orange;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.content2 ul
+{
+    columns: 2;
+    margin-top: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.content2 li
+{
+    margin: 10px;
+    font-weight: 700;
+}
+
+.content2 h1
+{
+    padding: 10px;
+    font-weight: 800;
+    font-size: 45px;
 }
 
 .img2
