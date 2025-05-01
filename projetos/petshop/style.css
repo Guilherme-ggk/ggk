@@ -262,7 +262,6 @@ nav button:hover
 
 .cards-s3
 {
-    background-color: aqua;
     display: flex;
     justify-content: center;
 }
@@ -274,7 +273,7 @@ nav button:hover
 
 
 .img33{
-    background-image: url(images/section2/rosto-dog.jpg);
+    background-image: url(images/section3/pug.jpg);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -282,7 +281,7 @@ nav button:hover
 }
 
 .img32{
-    background-image: url(images/section2/rosto-dog.jpg);
+    background-image: url(images/section3/gato1.jpg);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -290,7 +289,7 @@ nav button:hover
 }
 
 .img31{
-    background-image: url(images/section2/rosto-dog.jpg);
+    background-image: url(images/section3/dog1.jpg);
     width: 250px;
     height: 200px;
     background-size: cover;
