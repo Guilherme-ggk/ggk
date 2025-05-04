@@ -327,8 +327,14 @@ footer h1{
 
 
 /* CELULARES */
-@media (max-width: 667px)
+@media (min-width: 330px) and (max-width: 720px)
 {
+
+    .card-feature
+    {
+        background-color: antiquewhite;
+    }
+
     nav
     {
         height: 105px;
