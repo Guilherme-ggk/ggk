@@ -359,7 +359,10 @@ footer h1{
 
     #section-features
     {
-        display: block;
+        display: inline-block;
+        justify-content: center;
+        margin-left: 100px;
+        width: 400px;
         height: auto;
     }
 
