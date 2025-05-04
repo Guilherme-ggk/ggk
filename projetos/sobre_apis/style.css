@@ -326,80 +326,95 @@ footer h1{
 
 
 
-/* CELULARES */
-@media (min-width: 330px) and (max-width: 720px)
-{
 
-    .card-feature
-    {
-        background-color: antiquewhite;
+
+@media (max-width: 768px) {
+
+    #nav-title {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 10px;
     }
 
-    nav
-    {
-        height: 105px;
-        background-color: antiquewhite;
+    nav ul {
+        margin-right: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px 0;
     }
 
-    #nav-title
-    {
-        width: 100px;
+    nav a {
+        margin: 10px 15px;
+        font-size: 18px;
     }
 
-    nav a
-    {
-        color: aliceblue;
-    }
-
-    nav ul
-    {
-        margin: auto;
-    }
-
-    #nav-title
-    {
-        margin-bottom: 10px;
-    }
-
-    #section-features
-    {
-        display: inline-block;
-        background-color: rgb(148, 148, 124);
-    }
-
-    #section-apresentation
-    {
-        
-    }
-
-    .section-div p
-    {
-    }
-
-    .card-feature
-    {
-        margin-bottom: 150px;
-        margin-top: 100px;
-    }
-
-    .global-conceptions
-    {
-        display: inline-block;
-    }
-
-    #section-conceptions
-    {
+    #section-apresentation {
         height: auto;
+        padding: 50px 20px;
     }
 
-    
+    .section-div {
+        padding-top: 150px;
+    }
+
+    #section-apresentation p {
+        width: 100%;
+        padding: 0 10px;
+        font-size: 16px;
+    }
+
+    #section-apresentation h1 {
+        font-size: 32px;
+    }
+
+    #section-features {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .card-feature {
+        margin: 30px auto;
+        margin-top: 100px;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .card-feature p {
+        width: 100%;
+    }
+
+    #section-conceptions {
+        height: 1820px;
+        padding: 30px;
+        padding: 20px;
+    }
+
+    .global-conceptions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conception-feature {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-div {
+        margin-bottom: 20px;
+    }
+
+    .footer-div a {
+        justify-content: center;
+    }
 }
 
-/* TABLETS */
-@media (min-width: 768px) and (max-width: 1068px)
-{
-
-}
 
 
 
