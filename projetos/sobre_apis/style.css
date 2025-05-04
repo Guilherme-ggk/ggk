@@ -327,18 +327,17 @@ footer h1{
 
 
 /* CELULARES */
-@media (max-width: 720px)
+@media (max-width: 667px)
 {
     nav
     {
-        width: 720px;
         height: 105px;
+        background-color: antiquewhite;
     }
 
     #nav-title
     {
         width: 100px;
-        margin-left: 550px;
     }
 
     nav a
@@ -349,7 +348,6 @@ footer h1{
     nav ul
     {
         margin: auto;
-        width: 400px;
     }
 
     #nav-title
@@ -360,20 +358,16 @@ footer h1{
     #section-features
     {
         display: inline-block;
-        justify-content: center;
-        margin-left: 100px;
-        width: 400px;
-        height: auto;
+        background-color: rgb(148, 148, 124);
     }
 
     #section-apresentation
     {
-        width: 100%;
+        
     }
 
     .section-div p
     {
-        padding: 10px;
     }
 
     .card-feature
@@ -390,7 +384,6 @@ footer h1{
     #section-conceptions
     {
         height: auto;
-        padding: 10px;
     }
 
     
