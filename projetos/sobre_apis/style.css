@@ -326,5 +326,80 @@ footer h1{
 
 
 
+/* CELULARES */
+@media (max-width: 720px)
+{
+    nav
+    {
+        width: 720px;
+        height: 105px;
+    }
+
+    #nav-title
+    {
+        width: 100px;
+        margin-left: 550px;
+    }
+
+    nav a
+    {
+        color: aliceblue;
+    }
+
+    nav ul
+    {
+        margin: auto;
+        width: 400px;
+    }
+
+    #nav-title
+    {
+        margin-bottom: 10px;
+    }
+
+    #section-features
+    {
+        display: block;
+        height: auto;
+    }
+
+    #section-apresentation
+    {
+        width: 100%;
+    }
+
+    .section-div p
+    {
+        padding: 10px;
+    }
+
+    .card-feature
+    {
+        margin-bottom: 150px;
+        margin-top: 100px;
+    }
+
+    .global-conceptions
+    {
+        display: inline-block;
+    }
+
+    #section-conceptions
+    {
+        height: auto;
+        padding: 10px;
+    }
+
+    
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1068px)
+{
+
+}
+
+
+
 
 
