@@ -45,3 +45,11 @@ header
     background-size: cover;
     height: 400px;
 }
+
+.header-box
+{
+    width: 500px;
+    color: white;
+    margin-top: 100px;
+    margin-left: 200px;
+}
