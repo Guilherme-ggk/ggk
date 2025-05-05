@@ -6,6 +6,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 
 
 
@@ -646,5 +651,13 @@ footer
     footer
     {
         background-color: antiquewhite;
+    }
+
+    .teste
+
+    {
+        background-color: antiquewhite;
+        width: 100px;
+        height: 100px;
     }
 }
