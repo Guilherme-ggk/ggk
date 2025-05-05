@@ -4,3 +4,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav
+{
+    display: flex;
+}
+
+.nav-title
+{
+    color: white;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+
+.nav-box
+{
+    display: flex;
+    justify-content: end;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+.nav-box ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.nav-box a
+{
+    margin-right: 25px;
+    color: white;
+}
+
+header
+{
+    background-image: url(images/nav/nav.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
