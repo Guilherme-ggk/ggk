@@ -422,22 +422,30 @@ footer
         flex-direction: column;
         align-items: center;
         height: auto;
+        width: 100%;
     }
 
     nav ul {
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
+        width: 100%;
     }
 
     nav button {
         margin-top: 15px;
         margin-right: 0;
+        width: 100%;
+    }
+    .img2
+    {
+        width: 100%;
     }
 
     .nav-title {
         margin-left: 0;
         margin-top: 10px;
+        width: 100%;
     }
 
     .section1-content {
@@ -446,72 +454,86 @@ footer
         padding-top: 50px;
         text-align: center;
         margin-top: 15px;
+        width: 100%;
     }
 
     .section1-content h1 {
         font-size: 40px;
         text-wrap: wrap;
+        width: 100%;
     }
 
     .divs-f {
         flex-direction: column;
         align-items: center;
         margin-top: 10px;
+        width: 100%;
     }
 
     .section2 {
         flex-direction: column-reverse;
         height: auto;
+        width: 100%;
     }
 
     .box2-img, .box2-content {
         width: 100%;
         margin: 0;
+        width: 100%;
     }
 
     .content2 {
         margin: 40px auto;
         width: 90%;
+        width: 100%;
     }
 
     .content2 ul {
         columns: 1;
+        width: 100%;
     }
 
     .img2 {
         height: 300px;
+        width: 100%;
     }
 
     .section3 {
         height: auto;
         padding: 20px;
+        width: 100%;
     }
 
     .box-s3 p {
-        width: 90%;
+        width: 100%;
     }
 
     .cards-s3 {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .card3 {
         margin: 20px 0;
+        width: 100%;
     }
 
     .footer-redes {
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .ul-social {
         padding-left: 0;
         justify-content: center;
+        width: 100%;
     }
 
     .img-social {
         width: 35px;
+        width: 100%;
     }
 }
 

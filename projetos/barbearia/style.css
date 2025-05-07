@@ -6,10 +6,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 
 
@@ -642,22 +638,7 @@ footer
         font-size: 14px;
     }
 
-    .footer-redes
-    {
-        height: 1000px;
-        margin-top: 1000px;
-    }
 
-    footer
-    {
-        background-color: antiquewhite;
-    }
 
-    .teste
 
-    {
-        background-color: antiquewhite;
-        width: 100px;
-        height: 100px;
-    }
 }
