@@ -76,6 +76,13 @@ nav
 }
 
 
+.section3
+{
+    height: 300px;
+    background-color: green;
+}
+
+
 footer
 {
     background-color: black;
