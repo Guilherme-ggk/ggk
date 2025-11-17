@@ -138,7 +138,7 @@ nav #a-color:hover
     margin: 100px;
     text-align: center;
     width: 300px;
-    height: 210px;
+    height: 400px;
     padding: 10px;
     border-radius: 10px;
     margin-top: 50px;
@@ -160,6 +160,7 @@ nav #a-color:hover
         color: black;
     
 }
+
 
 .card-feature img{
     background-size: cover;
@@ -369,8 +370,9 @@ footer h1{
 
     #section-features {
         flex-direction: column;
-        height: auto;
+        height: 900px;
         padding: 30px 0;
+        background-color: aqua;
     }
 
     .card-feature {
